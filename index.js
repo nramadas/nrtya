@@ -108,6 +108,9 @@ const makeWorker = () => {
 
            // run the `Task` on this worker
            this.run(newTask.fn, newTask.args).then(newTask.returnResult);
+         } else {
+           // nothing left to do. mark as no longer running
+           this.running = false;
          }
        });
 
