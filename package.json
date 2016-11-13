@@ -1,0 +1,30 @@
+{
+  "name": "nrtya",
+  "version": "0.0.1",
+  "description": "An asynchronous threaded task worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "document": "jsdoc -p package.json -c ./jsdoc.json ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nramadas/nrtya.git"
+  },
+  "keywords": [
+    "async",
+    "thread",
+    "web",
+    "worker",
+    "fork"
+  ],
+  "author": "nramadas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nramadas/nrtya/issues"
+  },
+  "homepage": "https://github.com/nramadas/nrtya#readme",
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  }
+}
