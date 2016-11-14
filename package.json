@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "document": "jsdoc -p package.json -c ./jsdoc.json ./index.js"
+    "document": "jsdoc -p package.json -c ./jsdoc.json"
   },
   "repository": {
     "type": "git",
