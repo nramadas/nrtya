@@ -1,6 +1,6 @@
 {
   "name": "nrtya",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An asynchronous threaded task worker",
   "main": "index.js",
   "scripts": {
